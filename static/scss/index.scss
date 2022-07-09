@@ -1,0 +1,21 @@
+$primary: rgb(0, 108, 102);
+$nav-link-color: #369bde;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.hide {
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.text-white .nav-link {
+    color: white !important;
+}
